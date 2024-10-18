@@ -4,12 +4,17 @@ This is a plugin made to replace jquery's old select menu
 
 # How to use
 
-To install it, run 'npm i select-menu-react-plugin' in you project
-
 Prerequisities :
 
 - React Version : 18.3+
 - Node version 14.21+
+
+To install it, run 'npm i select-menu-react-plugin' in you project
+Then, in the components where you want it, use :
+
+```JavaScript
+import Dropdown from 'select-menu-react-plugin';
+```
 
 Components use 6 props :
 
@@ -23,6 +28,10 @@ interface DropdownProps {
 	error?: boolean; // Used to add 'error' on className, useful if you want to change style - optional
 }
 ```
+
+# 2.1.3 version note
+
+README updates
 
 # 2.1.2 version note
 
