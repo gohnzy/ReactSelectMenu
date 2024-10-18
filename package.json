@@ -1,7 +1,7 @@
 {
 	"name": "select-menu-react-plugin",
 	"description": "React plugin for a select input (dropdown input), made to replace an older version in jquery. 6 props are passed to it to use and custom it !!",
-	"version": "2.1.2",
+	"version": "2.1.3",
 	"keywords": [
 		"react",
 		"select",
