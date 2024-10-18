@@ -1,0 +1,62 @@
+{
+	"name": "select-menu-react-plugin",
+	"description": "React plugin for a select input (dropdown input), made to replace an older version in jquery. 6 props are passed to it to use and custom it !!",
+	"version": "2.1.2",
+	"keywords": [
+		"react",
+		"select",
+		"input",
+		"typescript"
+	],
+	"author": "gohnzy",
+	"private": false,
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-scripts": "5.0.1",
+		"web-vitals": "^2.1.4"
+	},
+	"peerDependencies": {
+		"react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+		"react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "babel ./index.tsx --out-dir lib --extensions .ts,.tsx",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.x.x",
+		"@babel/core": "^7.25.7",
+		"@babel/plugin-proposal-class-properties": "^7.x.x",
+		"@babel/plugin-proposal-private-methods": "^7.x.x",
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+		"@babel/preset-env": "^7.25.7",
+		"@babel/preset-react": "^7.25.7",
+		"@babel/preset-typescript": "^7.25.7"
+	}
+}
